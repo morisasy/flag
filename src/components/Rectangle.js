@@ -7,4 +7,4 @@ const Rectangle = styled.div`
   border: 1px solid black;
 `;
 
-export default Rectangle; // exported like a normal component
+export default Rectangle; 

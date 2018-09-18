@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-/
+
 const red = '#ad232f';
 
 const Circle = styled.div`

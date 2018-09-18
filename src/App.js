@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Rectangle from './components/Rectangle';
+import Circle from './components/Circle';
+import Pic from './components/Pic';
 
-import React from 'react';
-import Rectangle from './Rectangle';
-import Circle from './Circle';
 
 const App = () => {
 
   return (
     <Rectangle>
       <Circle />
+      <Pic size={300} />
+      <Pic round />
     </Rectangle>
   );
 };
